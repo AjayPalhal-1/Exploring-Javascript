@@ -1,0 +1,22 @@
+
+
+What Is Script ?
+
+-set of instruction - light Weight languages
+
+
+Node = cpp+ .js 
+
+developed by brenden bro 
+
+
+{ECMA , ES6  ES13} :  Global Standered they have seted some rule for how to a  lang. 
+
+We can run .js code in 
+1. On console.log()
+2. On Termianal 
+3 .On live servern n vs - code 
+
+
+
+

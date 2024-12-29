@@ -1,0 +1,57 @@
+
+
+
+Variables :  Named Memorey location 
+
+1) var :  
+
+if declared in in function scope then it will availbel only that much function scope only .
+if declared gloaball it will be availbel for gloabally.
+
+
+Problems of var :
+
+we can re-declare it  , re-Defined it  that it creat some issue while debugging .
+thats why we dont use it normally  or nowdays .
+
+
+Then ES6 introduced let keyword to use :
+
+2) let :
+ 
+  It knows for its block level accrssing 
+  when we declare any variable with ley keywords then it available only for that 
+  declared block of code { } .
+  if declared gloaball it will be availbel for gloabally.
+
+
+
+  we can update or manipulate the data after decalarations 
+  we  can assign it with string or int or float --- that makes javascript dynamic type lang. 
+
+
+ 3) const :
+
+ after decalarations we cant change its value afterwords .
+
+
+[::::::::::::::::::::::::Naming Convention :::::::::::::::::]
+
+1. first word can be  number , $ , and _ 
+2. Name should be Meaninfull
+3. Space Not allowed in 2 words 
+4. Dont  use resereved keywords 
+5. Follw Proper CamelCase  
+
+
+
+Datatypes :
+
+primitive  : int , float  , bigint  , string 
+
+Non Primitive DT :
+
+Un- Defined DT :  let a ;  and we trying to print its value then it will says its undefined  
+
+NULL DT : let num = null ;  if we print it then it shows its null value 
+
