@@ -1,0 +1,51 @@
+
+
+Oprators :  + , - , / / /
+
+1) Airthematic :
+   Unary Oprators    : one operand   ++b 
+   Binary             : two poerand  a+b
+   % modulus oprators  give remenders value .
+
+2) Comparision Oprator 
+    <= , >= , > , < == 
+
+3) Strict Equlality  ===   comp between data type and value  int a =10  === int b=10 ;
+4) Lose Equlality    ==    comp between value only int a = 10 == string b = 10 ;
+
+
+5) Ternary Oprator 
+
+
+
+
+
+
+
+
+
+
+
+learings :
+
+
+
+1. **Arithmetic Operators:** Used `+` for addition and `%` for finding the remainder between two numbers.  
+
+2. **Postfix and Prefix Operators:** `a--` (post-decrement) decreases the value after use, and `--a` 
+   (pre-decrement) decreases the value before use.  
+
+3. **Strict Equality (`===`):** Compares variables for both value and type.  
+
+4. **Ternary Operator (`? :`):** Provides a concise way to write conditional expressions.  
+
+5. **Logical Operators (`&&` and `||`):** `&&` returns the first falsy value or the last 
+   value if all are truthy; `||` returns the first truthy value or the last value if all are falsy.  
+   
+6. **Falsy and Truthy Values:** Non-boolean values are treated as either `true` (truthy) or `false` (falsy)
+   in logical operations.   
+
+7. **Bitwise NOT (`~`) Operator:** Flips each bit of a number, effectively calculating `-(n+1)`.  
+
+8. **Bitwise Shift Operators:** `<<` shifts bits left, multiplying by 2 for each shift; `>>` shifts bits right,
+    dividing by 2 for each shift.  
