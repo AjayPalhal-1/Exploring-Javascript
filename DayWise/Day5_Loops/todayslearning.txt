@@ -1,0 +1,22 @@
+
+
+
+for (int i =0; i< 10; i++)
+{
+    consol.log("ajay")
+}
+
+we dont need to write int , float , double here in javascript .
+
+
+
+1)break : when we reach it break simly it tells that get out in that loop 
+it responsible for terminating the current loop .
+
+2)continue : when we reach at continues condition  then we just skip that particular itration 
+and execute that ramin itration and non matching condition with continues conditions.
+
+
+
+
+lecture duration : 35 min Done .
