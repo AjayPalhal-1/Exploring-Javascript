@@ -58,3 +58,13 @@
         console.log("Sat Saheb")
         i--;
     }
+
+
+    let j = 1;
+
+    do
+    {
+        console.log("Map Is Part of Collection")
+        i++;
+
+    }while(i<10)

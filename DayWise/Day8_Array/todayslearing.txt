@@ -1,0 +1,78 @@
+
+
+::::: OBJECT   :::
+let arr = {1,2,3,4,5}
+
+
+Stack Memory :
+
+primitive data type stored here 
+arr stored here 
+
+Heap Memory :
+
+All type references Stored Here 
+
+ {1,2,3,4,5}  stored here !
+
+
+
+ Object : Collection of key value pair
+
+
+
+ Sahllow Copy : two object points Same Data 
+ Deep Copy ;
+
+
+
+
+
+ ::::::::::::::::::::::::::::::::  Array :::::::::::::::::::
+
+
+err = crr.map(
+    (num)=>{
+         return num + 100
+    }
+)
+console.log(err)
+
+ crr = array 
+ num = each element in array storing here and passes as parameter to arrow function 
+ => : syntax or symbol of arrrow function 
+
+
+
+
+
+
+
+
+  Today's Learning Summary  
+
+ Core Concepts  
+1. Array Methods):  
+   - map(): Creates a new array by applying a function to each element.  
+   - pop(): Removes the last element and returns it.  
+   - push(): Adds elements to the end and returns the new length.  
+   - slice(): Extracts a portion of the array as a new array.  
+   - at(): Fetches the element at a specific index.  
+   - length: Returns the size of the array.  
+
+2. Arrow Functions:  
+   - Concise syntax for defining functions.  
+   - Example:  
+     ```javascript
+     let ans = arr.map((num) => num * num);
+     ```
+
+Key Interview Points ))
+  
+- Difference between map() and forEach():
+    ans  :  map() returns a new array, forEach() doesn’t.  
+- Which methods modify the original array?
+    ans  (pop(), push(), splice() modify; slice(), map() don’t).  
+- Arrow functions are not suited for this-dependent operations.  
+
+Keep practicing and experimenting! 🚀

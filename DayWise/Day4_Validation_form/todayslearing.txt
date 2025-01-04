@@ -1,0 +1,16 @@
+
+
+
+
+
+31 dec 2024 
+
+
+i have crate d first validation form using javascript
+
+
+   let id =  document.getElementById("userid").value
+
+   when whole code runs in html it sotres in DOM 
+    and have assigned id to userid so we get this value getElementById  here 
+    .value : for getting actual value at that id i.e. userid 
