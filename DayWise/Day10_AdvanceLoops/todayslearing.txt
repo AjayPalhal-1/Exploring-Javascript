@@ -1,0 +1,17 @@
+
+
+
+
+
+Key Takeaways for Interviews
+
+1. for...in  :   Used for objects to iterate over keys.
+2. for...of  :   Used for arrays or strings to iterate over values.
+3. forEach   :    Array-specific method, executes a callback for every element.
+
+4. Difference:
+
+
+for...in    gives keys,
+for...of    gives values,
+forEach     is for arrays only, allowing direct execution of a function.
