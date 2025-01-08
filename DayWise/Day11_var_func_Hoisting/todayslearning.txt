@@ -1,0 +1,71 @@
+
+
+
+
+
+printMyName();
+
+function printMyName()
+{
+    console.log("AJAY PALHAL ")
+}
+
+
+
+:::::   Function Hoisting ::::::
+
+
+  mechanisam in js are responsible for giving power to us that 
+  we can call any function before thier function defination / Declarations .
+
+
+  In JavaScript, **function declaration and definition are considered the same**.
+
+  When you write `function funcName() { ... }`, both the function name and its code are hoisted
+  to the top of the scope during compilation. This lets you call the function even before its  
+  definition appears in the code.
+
+
+
+::::: Variable Hoisting ::::::
+
+ console.log(age)
+ var age = 23;
+
+ in variable case only declaration will shifted at the top of the scope --- only declaration 
+ defination not 
+ that why it shows that age in undefined .   
+ age is treated as variable but undefined 
+
+
+ const and let are not support the variable hoisting .
+
+
+
+::::::  Function Expression ::::::: 
+
+  When we assign the function to the variable this term know as function expression .
+   
+   example : let myname = Function { console.log("I Am Ajay ")}
+
+  function expressions are not hoisted, which means you cannot call the function
+  before the line where it is defined.
+
+
+<<<<< Function Hoisting Is worked for only plain function no for function Expression .>>>>>>>>>>>
+
+
+<<<<<< Class Level Hoisting is also Not Possiable in .js >>>>>>>>>>>>>
+
+
+
+
+
+
+### Difference Between Function Declaration and Function Expression:
+| **Feature**                  | **Function Declaration**                         | **Function Expression**                        |
+|-------------------------------|------------------------------------------------ |------------------------------------------------|
+| Syntax                       | `function myFunc() { ... }`                      | `let myFunc = function() { ... }`              |
+| Hoisting                     | Fully hoisted (can call before definition)       | Not hoisted (cannot call before definition)    |
+| Named Function               | Always has a name                                | Can be named or anonymous                      |
+| Use Case                     | Useful when defining standalone functions        | Useful for assigning functions to variables    |
