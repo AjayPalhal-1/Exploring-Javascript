@@ -1,0 +1,52 @@
+
+
+
+
+First Clss Citizen ::::::
+
+Q Why we called Function as First Class Citizen 
+
+ans : Coz Fucntion provide Above facilities to use 
+
+we can pass as argument 
+we can return function 
+we can store it in single variable 
+We can use in in Data Structure (in Arrays)
+We can write it object as property of thst object 
+
+
+
+
+
+// function solve ()
+// {
+//     return function (num )
+//     {
+//         return (num + num);
+//     }
+// }
+
+// let ans = solve()   // ans storing a function in itself 
+// let finalans = ans(5) // so here we passing parameter to ans and result storing in finalans
+
+// console.log(finalans)
+
+
+
+if we assign function to any variable so that variable will stores the function in itself .
+
+
+
+
+
+
+Why Are Functions Called First-Class Citizens in JavaScript?
+
+Functions in JavaScript are called first-class citizens because they can be treated just like any other
+data type (e.g., numbers, strings, objects). They have the following capabilities:
+
+1. Assignment to Variables: Functions can be assigned to variables like any other value.
+2. Passed as Arguments: Functions can be passed as arguments to other functions.
+3. Returned from Functions: Functions can return other functions as their output.
+4. Stored in Data Structures: Functions can be added to arrays, objects, or other data
+   structures.
