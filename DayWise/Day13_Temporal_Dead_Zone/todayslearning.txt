@@ -1,0 +1,15 @@
+
+    1. TDZ Definition: The period between hoisting and initialization where accessing variables
+     declared with let and const results in a ReferenceError. 
+
+    2. TDZ for let and const: Variables declared with let and const are not initialized during 
+    hoisting, unlike var, which is initialized as undefined. 
+
+    3. Prevents Early Access: TDZ ensures that variables are not accessed before they are properly
+     declared and initialized, reducing bugs. 
+
+    4. Block-Level Scoping: let and const provide block-level scoping, preventing variables from being
+     accessed outside their scope. 
+     
+    5. Improved Code Safety: TDZ promotes better coding practices by enforcing proper variable
+     declaration and initialization, reducing unintended behaviors. 
