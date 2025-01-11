@@ -1,0 +1,30 @@
+Today's Learning Summary (Short Version):
+
+    1. Single Constructor Rule:
+
+JavaScript allows only one constructor per class. Use default parameters for flexible initialization.
+
+    2. Setters (set) for Setting Properties:
+
+Set properties with set like:
+
+       object.propertyName = value;
+
+    3. Getters (get) for Accessing Properties:
+
+Access properties with get like:
+
+       console.log(object.propertyName);
+
+    4. Private Fields:
+
+Private fields use # and are only accessible within the class.
+
+    5. Encapsulation:
+
+Setters and getters control access to private properties, useful for validation or modification.
+
+    6. Writing Constructors:
+    
+Use the constructor keyword to initialize objects in a class.
+
