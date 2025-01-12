@@ -3,19 +3,19 @@
 
 
 
-// console.log("Welcome There")
-// console.log(Math.max(1,234,4,5,67,8,99))
-// console.log(Math.min(1,234,4,5,67,8,99))
-// console.log(Math.PI)
-// console.log(Math.round(1.6))
-// console.log(Math.round(1.4))
-// console.log(Math.ceil(1.6))
-// console.log(Math.cbrt(1.6))
-// console.log(Math.round(-5))
-// console.log(Math.random())
-// console.log(Math.sqrt(5))
-// console.log(Math.pow(4,2))
-// console.log(Math.pow(4,16))
+console.log("Welcome There")
+console.log(Math.max(1,234,4,5,67,8,99))
+console.log(Math.min(1,234,4,5,67,8,99))
+console.log(Math.PI)
+console.log(Math.round(1.6))
+console.log(Math.round(1.4))
+console.log(Math.ceil(1.6))
+console.log(Math.cbrt(1.6))
+console.log(Math.round(-5))
+console.log(Math.random())
+console.log(Math.sqrt(5))
+console.log(Math.pow(4,2))
+console.log(Math.pow(4,16))
 
 
 
