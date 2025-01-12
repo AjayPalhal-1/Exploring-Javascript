@@ -1,0 +1,38 @@
+
+
+Inbuild Object In JS
+
+1) Math 
+
+
+Today's Learning Summary:
+
+    1. Math Object in JavaScript:
+
+        ◦ Math.max(): Returns the largest value among the arguments. 
+        ◦ Math.min(): Returns the smallest value among the arguments. 
+        ◦ Math.PI: Gives the value of π (3.14159...). 
+        ◦ Math.round(): Rounds a number to the nearest integer. 
+        ◦ Math.ceil(): Rounds a number up to the next largest integer. 
+        ◦ Math.cbrt(): Returns the cube root of a number. 
+        ◦ Math.random(): Generates a random number between 0 and 1. 
+        ◦ Math.sqrt(): Returns the square root of a number. 
+        ◦ Math.pow(base, exponent): Calculates base raised to the power of exponent. 
+
+    2. Date Object in JavaScript:
+
+        ◦ new Date(): Creates a new Date object with the current date and time. 
+        ◦ new Date("April 14 2001"): Creates a Date object for a specific date (string format). 
+        ◦ new Date(2001, 3, 14): Creates a Date object for a specific year, month (0-indexed), and day. 
+        ◦ Methods: 
+            ▪ getFullYear(): Retrieves the year from the Date object. 
+            ▪ getMonth(): Retrieves the month (0-indexed) from the Date object. 
+            ▪ setMinutes(value): Sets the minutes of the Date object. 
+            ▪ getMinutes(): Retrieves the minutes from the Date object. 
+
+    3. Key Takeaways:
+    
+        ◦ Learned how to perform mathematical operations using the Math object. 
+        ◦ Gained insights into manipulating and extracting information from dates using the Date object. 
+        ◦ Observed that months in the Date constructor are 0-indexed (e.g., April = 3). 
+
