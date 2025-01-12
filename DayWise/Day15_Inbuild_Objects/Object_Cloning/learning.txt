@@ -1,0 +1,16 @@
+
+
+
+
+    Shallow Copy  vs Deep Copy    
+
+
+ Shallow Copy:
+
+   Best for simple objects with no nested properties.
+ 
+ 
+Deep Copy: 
+
+
+     Essential for objects with nested data when you want independent copies.
