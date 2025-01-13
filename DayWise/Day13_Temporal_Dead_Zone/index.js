@@ -1,11 +1,8 @@
-
-
-// Gloabal Scope 
+// Gloabal Scope
 
 // var age =23;
 // let age = 24;
 // const age = 24;
-
 
 // {
 //     console.log(age)
@@ -22,9 +19,7 @@
 //     console.log("In Function",age)
 // }
 
-
-// Function Scope 
-
+// Function Scope
 
 // function sayhi()
 // {
@@ -36,9 +31,7 @@
 // sayhi()
 //  console.log(name)
 
-
-/// Block Level Scope 
-
+/// Block Level Scope
 
 // {
 //     var myname = "AJAY"
@@ -50,21 +43,16 @@
 // console.log(sirname)
 // console.log(rollno)
 
-
-
-
-// Temporal Dead Zone 
+// Temporal Dead Zone
 
 // console.log(age)
 // console.log("HIIII")
 // console.log("helooo!1!!!!!")
 
-
 // var age = 23;
 
-console.log(age1)
-console.log("HIIII")
-console.log("helooo!1!!!!!")
-
+console.log(age1);
+console.log("HIIII");
+console.log("helooo!1!!!!!");
 
 const age1 = 23;

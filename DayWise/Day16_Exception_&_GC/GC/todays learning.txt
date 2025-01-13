@@ -1,0 +1,13 @@
+
+
+
+
+Garbage Collector : 
+
+Memory Manaegment tool
+we dont have any control over it 
+frees the memory which no longer use .
+Always run in background .
+
+Frees the resources 
+
