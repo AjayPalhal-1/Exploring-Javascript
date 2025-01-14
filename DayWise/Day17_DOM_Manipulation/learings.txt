@@ -1,0 +1,10 @@
+
+
+
+
+Core Concepts Summary
+    1. Use the window and document objects for interacting with the browser and webpage content. 
+    2. Learn the DOM for dynamic manipulation. 
+    3. Select elements using methods like getElementById, querySelector, and $0. 
+    4. Update content using innerHTML for interactivity. 
+    5. Use BOM for browser-specific actions like navigation and alerts. 
