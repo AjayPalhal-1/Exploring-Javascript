@@ -1,0 +1,20 @@
+
+
+
+Events : 
+         Its Just Announcement By Browser .
+         Its Just Announcement that i need do that or i am gonna do that 
+         there will some action permormed after executing the specific event
+
+
+        In JavaScript, functions are treated as first-class citizens. This means
+         they are values like any other (e.g., numbers, strings) and can be assigned, 
+         passed, or returned. When you use a function name without parentheses, the 
+         function itself (its definition) is treated as a value or reference rather than being executed.
+        
+         Using the function name without parentheses (changetext) provides a reference 
+         to the function's memory
+         location so that it can be executed later, instead of immediately running it 
+         (changetext()). This is essential for callbacks and event-driven programming in JavaScript.
+
+
