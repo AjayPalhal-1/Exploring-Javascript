@@ -1,0 +1,6 @@
+
+
+Core Concept
+You can choose which phase to handle the event in using the third parameter of addEventListener:
+    • true: Handle the event in the capturing phase. 
+    • false (default): Handle the event in the bubbling phase. 

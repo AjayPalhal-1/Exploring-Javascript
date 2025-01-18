@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="parent" style="padding: 20px; background-color: lightblue;">
+        Parent Div
+        <p id="child" style="padding: 10px; background-color: lightgreen;">
+          Click Me!
+        </p>
+      </div>
+      
+      <script>
+        let parent = document.getElementById("parent");
+        let child = document.getElementById("child");
+      
+        // Capturing Phase
+        parent.addEventListener(
+          "click",
+          () => {
+            console.log("Parent: Capturing Phase");
+          },
+          true // Capturing phase
+        );
+      
+        // Bubbling Phase
+        parent.addEventListener(
+          "click",
+          () => {
+            console.log("Parent: Bubbling Phase");
+          },
+          false // Bubbling phase (default)
+        );
+      
+        // Target Phase
+        child.addEventListener("click", () => {
+          console.log("Child: Target Phase");
+        });
+      </script>
+      
+</body>
+</html>

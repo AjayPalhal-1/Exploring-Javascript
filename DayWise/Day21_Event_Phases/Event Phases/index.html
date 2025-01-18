@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id = "parent">
+        Parent Div
+      <article>
+        <p id="mypara">Orignal Para Content</p>
+      </article>
+    </div>
+
+    <script>
+
+      let para = document.getElementById("mypara");
+      let parent = document.getElementById("parent");
+
+
+      function updatetext() {
+        let para = document.getElementById("mypara");
+
+        para.textContent="Hello Html";
+      }
+    //   function parentHandler(e) {
+    //     console.log("Parent Div Clicked");
+    //   }
+
+    //   function paraHandler(e) {
+    //     console.log("Paragraph Clicked");
+    //   }
+
+
+
+
+
+      para.addEventListener("click", updatetext);
+    //   parent.addEventListener("click", parentHandler, true); // Bubbling phase
+    //   parent.addEventListener("click", paraHandler, false); // Bubbling phase
+    </script>
+  </body>
+</html>
