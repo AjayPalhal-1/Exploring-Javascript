@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reflow Example</title>
+    <style>
+      #box {
+        width: 100px;
+        height: 200px;
+        background-color: lightblue;
+      }
+      #box2 {
+        width: 200px;
+        height: 200px;
+        background-color: rgb(37, 87, 103);
+      }
+      #maindiv {
+        display: flex;
+        /* display: block; */
+      }
+    </style>
+  </head>
+  <body>
+    <div id=" maindiv">
+      <div id="box">
+        <button onclick="triggerReflow()">Trigger Reflow</button>
+      </div>
+
+      <div id="box2">
+        <button onclick="triggerRepaint()">Trigger Repaint</button>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
