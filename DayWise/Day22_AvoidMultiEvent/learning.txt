@@ -1,0 +1,17 @@
+
+Core Concepts of Today's Learning:
+
+    1. Event Handling: Use addEventListener to attach event listeners
+     and handle events dynamically. 
+
+    2. Event Delegation: Attach events to a parent element and identify
+     child elements using event.target. 
+
+    3. DOM Manipulation: Use getElementById to target specific elements 
+    and dynamically interact with them. 
+
+    4. Performance Measurement: Use performance.now() to measure code 
+    execution time. 
+    
+    5. HTML Structure: Organized HTML with parent-child relationships 
+    for efficient event handling. 
