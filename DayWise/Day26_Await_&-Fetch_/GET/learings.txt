@@ -1,0 +1,7 @@
+
+
+Key Takeaways
+    • async: Makes a function work asynchronously and return a promise. 
+    • await: Waits for the promise to complete before moving forward. 
+    • fetch API: Used to make HTTP requests like GET, POST, PUT, or DELETE. 
+    • Always handle errors with .catch or try-catch for better code reliability. 
