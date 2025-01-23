@@ -1,0 +1,7 @@
+
+
+A closure means that if a function requires some data (variables) to process, 
+it retains access to those variables from its outer scope even after the outer 
+scope has finished executing. The function holds a reference to the variables, 
+not a copy, so it can continue to work with them, 
+even when the program execution has moved "out of scope" of those variables.
